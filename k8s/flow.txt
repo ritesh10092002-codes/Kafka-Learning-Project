@@ -1,0 +1,42 @@
+Spring Boot Code
+        ↓
+mvn clean package
+        ↓
+JAR File
+        ↓
+Dockerfile
+        ↓
+docker build
+        ↓
+Docker Image
+        ↓
+docker run (local testing)
+        ↓
+docker push
+        ↓
+Docker Hub
+        ↓
+Deployment.yaml + Service.yaml
+        ↓
+kubectl apply
+        ↓
+Pod + Service Created
+        ↓
+kubectl port-forward / NodePort
+        ↓
+Application Accessible
+
+
+
+Create dockerfile in each microservices at module level	Done
+Clean and build code , then using docker build command  build 	Done
+use command docker images to check if  images is created or not 	Done
+Run the images using docker run command 	Done
+
+Create docker hub account and tage images
+Push image to docker hub--> public repo 	Done
+Deployment by kubernetes
+"Install kubernetes-Docker Desktop Kubernetes
+Minikube"
+Crete service and deployment yaml for k8
+verify deployment on k8s
